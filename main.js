@@ -14,6 +14,7 @@ var Greeter = (function () {
     Greeter.prototype.stop = function () {
         clearTimeout(this.timerToken);
     };
+    Greeter.MyStaticVar = "StaticParam";
     return Greeter;
 })();
 window.onload = function () {

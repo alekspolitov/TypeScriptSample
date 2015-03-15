@@ -1,5 +1,11 @@
 /// <vs AfterBuild='typescript' />
 module.exports = function (grunt) {
+    require('time-grunt')(grunt);
+
+    require('load-grunt-config')(grunt, {
+        jitGrunt: true
+    });
+
     grunt.loadNpmTasks('grunt-ts');
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-uglify');

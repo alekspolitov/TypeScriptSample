@@ -1,18 +1,22 @@
 {
-  "name": "TypeScriptHTMLApp1",
-  "version": "0.1.0",
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-ts": "^3.0.0",
-    "typescript": "^1.4.1",
-    "grunt-contrib-uglify": "^0.8.0",
-    "grunt-contrib-concat": "*"
-  },
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "TypeScriptHTMLApp1",
+    "version": "0.1.0",
+    "devDependencies": {
+        "grunt": "^0.4.5",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-uglify": "^0.8.0",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-ts": "^3.0.0",
+        "load-grunt-config": "^0.16.0",
+        "typescript": "^1.4.1"
+    },
+    "dependencies": {
+        "time-grunt": "^1.0.0"
+    },
+    "main": "main.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
 }
