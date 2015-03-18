@@ -1,5 +1,5 @@
-(function (window) {
 var Greeter = (function () {
+    //static MyStaticVar: string = "StaticParam";
     function Greeter(element) {
         this.element = element;
         this.element.innerHTML += "The time is: ";
@@ -14,7 +14,6 @@ var Greeter = (function () {
     Greeter.prototype.stop = function () {
         clearTimeout(this.timerToken);
     };
-    Greeter.MyStaticVar = "StaticParam";
     return Greeter;
 })();
 window.onload = function () {
@@ -24,20 +23,24 @@ window.onload = function () {
 };
 var Shapes;
 (function (Shapes) {
+    // Class
     var Point = (function () {
+        // Constructor
         function Point(x, y) {
             this.x = x;
             this.y = y;
         }
+        // Instance member
         Point.prototype.getDist = function () {
             return Math.sqrt(this.x * this.x + this.y * this.y);
         };
+        // Static member
         Point.origin = new Point(0, 0);
         return Point;
     })();
     Shapes.Point = Point;
 })(Shapes || (Shapes = {}));
+// Local variables
 var p = new Shapes.Point(3, 4);
 var dist = p.getDist();
-//# sourceMappingURL=_main.js.map
-})(window);
+//# sourceMappingURL=main.js.map
