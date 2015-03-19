@@ -1,5 +1,3 @@
-(function (window) {
-    //заголовок
 var Greeter = (function () {
     //static MyStaticVar: string = "тестовое сообщение";
     function Greeter(element) {
@@ -45,6 +43,3 @@ var Shapes;
 // Local variables
 var p = new Shapes.Point(3, 4);
 var dist = p.getDist();
-
-//футер
-})(window);

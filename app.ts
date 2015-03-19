@@ -2,7 +2,7 @@
     element: HTMLElement;
     span: HTMLElement;
     timerToken: number;
-    //static MyStaticVar: string = "StaticParam";
+    //static MyStaticVar: string = "тестовое сообщение";
   
     constructor(element: HTMLElement) {
         this.element = element;

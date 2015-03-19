@@ -8,18 +8,14 @@
     "grunt-contrib-watch": "^0.6.1",
     "grunt-ts": "^3.0.0",
     "gulp": "^3.8.11",
-    "gulp-concat": "^2.5.2",
-    "gulp-ts": "^0.2.0",
-    "gulp-uglify": "^1.1.0",
+    "gulp-concat": "^2.5.2",    "gulp-uglify": "^1.1.0",
     "gulp-watch": "^4.2.0",
     "load-grunt-config": "^0.16.0",
     "typescript": "^1.4.1",
-    "gulp-typescript": "^2.5.0",
-    "gulp-tsc": "^0.9.3",
-    "gulp-clean": "^0.3.1",
+    "gulp-typescript": "^2.5.0",    "gulp-clean": "^0.3.1",
     "gulp-load-plugins": "^0.8.1",
-    "gulp-rimraf": "^0.1.1",
-    "gulp-ignore": "^1.2.1"
+    "vinyl-paths": "^1.0.0",
+    "gulp-cr-lf-replace": "^0.0.2"
   },
   "dependencies": {
     "time-grunt": "^1.0.0"
